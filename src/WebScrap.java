@@ -39,7 +39,6 @@ public class WebScrap {
 
 
        Document doc = Jsoup.connect(url).get();   // Connect to the web site
-       //Links and images is gathered by css selector
        Elements links = doc.select("a[href]");   // List of the links
        Elements img = doc.select("img[src]");       // List of the images
 
