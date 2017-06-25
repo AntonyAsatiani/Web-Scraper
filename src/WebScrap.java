@@ -14,8 +14,9 @@ import java.io.*;
 public class WebScrap {
 
     public static void main(String[] args) throws IOException {
-
-        String url = "";
+         
+       // String url = "";
+      /*Read from file
       try
       {
 
@@ -33,8 +34,8 @@ public class WebScrap {
           e.printStackTrace();
       }
 
-
-        //String url = "http://google.com";
+         */
+        String url = "http://google.com";
 
 
        Document doc = Jsoup.connect(url).get();   // Connect to the web site
